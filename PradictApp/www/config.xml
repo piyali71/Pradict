@@ -2,10 +2,10 @@
 <widget id="vrisini.pradict.sample" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Pradict</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        A sample Apache Cordova application that responds to the deviceready event.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="subharun@vrisini.com" href="http://vrisini.com">
+        Vrisini Team
     </author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
