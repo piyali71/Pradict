@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>PhoneGap Demo App</title>
+   
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+     <!-- Cordova -->
+    <script src="/js/cordova-2.2.0.js"></script>
+
+    <!-- PhoneGapDemoApp references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+</head>
+<body>     
+    <p>Content goes here</p>
+    <h1>PhoneGap for Windows 8 - Demo</h1>
+     <script type="text/javascript">
+
+         console.log("Subscribing top  deviceready event...");
+         document.addEventListener("deviceready", function () {
+
+             navigator.notification.alert("This device is ready!");
+
+         });
+
+    </script>
+
+    
+
+    <p>
+        <strong>Location</strong>
+        <button id="btnGeoLocation">Get Current Location</button><br />
+        
+
+    </p>
+    <div id="locationResult"></div>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MATEEV-WIN8-VM</Machine>
+    <WindowsUser>mihai_000</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>69DE519F303C5D40F7C8CD845F0BD1FFE0CD1CDA791E69AD5008ACC5EBA93983</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>49eb726d-d7ea-4a05-8781-5fd8ca03202b_1.0.0.0_neutral__6znyz9frsbywe</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>49eb726d-d7ea-4a05-8781-5fd8ca03202b_6znyz9frsbywe!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>49eb726d-d7ea-4a05-8781-5fd8ca03202b</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=mihai_000</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Work\PhoneGapDemoApp\PhoneGapDemoApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-03T15:15:20.135</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Work\PhoneGapDemoApp\PhoneGapDemoApp\index.html">
+      <PackagePath>index.html</PackagePath>
+      <Modified>2013-01-05T12:18:46.106</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work\PhoneGapDemoApp\PhoneGapDemoApp\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-09-18T18:52:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work\PhoneGapDemoApp\PhoneGapDemoApp\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-09-18T18:52:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work\PhoneGapDemoApp\PhoneGapDemoApp\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-09-18T18:52:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work\PhoneGapDemoApp\PhoneGapDemoApp\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-09-18T18:52:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work\PhoneGapDemoApp\PhoneGapDemoApp\js\cordova-2.2.0.js">
+      <PackagePath>js\cordova-2.2.0.js</PackagePath>
+      <Modified>2012-11-01T10:43:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work\PhoneGapDemoApp\PhoneGapDemoApp\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-01-03T15:04:57.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work\PhoneGapDemoApp\PhoneGapDemoApp\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2012-09-18T18:52:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work\PhoneGapDemoApp\PhoneGapDemoApp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-01-03T15:15:20.066</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20512</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20512</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
